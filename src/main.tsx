@@ -5,6 +5,6 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <App className="font-display" />
+    <App />
   </React.StrictMode>,
 )

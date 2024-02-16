@@ -5,7 +5,7 @@ import { Mainform} from '@/components/mainform/Mainform'
 function App() {
   return (
     <>
-      <div className="bg-white text-blue-900 p-6 rounded-3xl w-10/12">
+      <div className="font-display bg-white text-blue-900 p-6 rounded-3xl w-10/12">
         <Header />
         {/*Form*/}
         <Mainform />
