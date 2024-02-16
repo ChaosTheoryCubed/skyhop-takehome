@@ -11,3 +11,5 @@ Uses the following technologies:
 
 *NOTE: It was difficult to figure out the margins/paddings and font via the image provided as it was low quality. However, I am
 proud of myself for finding the font: Raleway by recognizing the unique W.*
+
+- Dane E. Parchment Jr. (ChaosTheoryCubed)
