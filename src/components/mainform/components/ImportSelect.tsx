@@ -3,10 +3,10 @@ import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from '@
 export function ImportSelect() {
   return (
      <Select>
-      <SelectTrigger className="w-full font-bold">
+      <SelectTrigger className="w-full font-bold border-blue-900 border">
         <SelectValue className="font-bold text-xl text-blue-500" placeholder="Select Import Name:" />
       </SelectTrigger>
-      <SelectContent>
+      <SelectContent className="border border-blue-900">
         <SelectItem value="import1">Import Item 1</SelectItem>
         <SelectItem value="import2">Import Item 2</SelectItem>
         <SelectItem value="import3">Import Item 3</SelectItem>

@@ -10,7 +10,7 @@ export function Header() {
         </Button>
       </div>
       <div className="flex p-3 items-center justify-center">
-        <h1 className="text-4xl font-bold border-b-4 pb-5">Document Upload</h1>
+        <h1 className="text-4xl font-bold border-b-4 border-gray-300 pb-5">Document Upload</h1>
       </div>
     </>
   )

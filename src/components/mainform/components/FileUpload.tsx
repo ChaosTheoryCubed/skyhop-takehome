@@ -24,10 +24,10 @@ export function FileUpload() {
   return (    
     <>
       <p className="font-bold">Select a manifest you'd like to import</p>
-      <div className="border-2 flex-1 rounded-md p-3 flex flex-col gap-3">
+      <div className="border-2 border-gray-300 flex-1 rounded-md p-3 flex flex-col gap-3">
         <div
           {...getRootProps({className: 'dropzone'})}
-          className="border-2 rounded-md p-2 h-36 border-dashed flex flex-col gap-3 justify-center items-center">
+          className="border-2 rounded-md border-gray-400 p-2 h-36 border-dashed flex flex-col gap-3 justify-center items-center">
           <input {...getInputProps()} />
           <FileTextIcon className="text-amber-500 h-8 w-8" />
           <p>Drag & Drop Here Or <span className="font-bold">Browse</span></p>
