@@ -24,21 +24,21 @@ export function FileUpload() {
   return (    
     <>
       <p className="font-bold">Select a manifest you'd like to import</p>
-      <div className="border-2 border-gray-300 flex-1 rounded-md p-3 flex flex-col gap-3">
+      <div className="flex flex-col flex-1 gap-3 p-3 rounded-md border-2 border-gray-300">
         <div
           {...getRootProps({className: 'dropzone'})}
-          className="border-2 rounded-md border-gray-400 p-2 h-36 border-dashed flex flex-col gap-3 justify-center items-center">
+          className="flex flex-col gap-3 justify-center items-center p-2 h-36 rounded-md border-2 border-gray-400 border-dashed">
           <input {...getInputProps()} />
-          <FileTextIcon className="text-amber-500 h-8 w-8" />
+          <FileTextIcon className="w-8 h-8 text-amber-500" />
           <p>Drag & Drop Here Or <span className="font-bold">Browse</span></p>
         </div>
-        <Button className="bg-blue-900 text-white font-bold w-1/2 mx-auto hover:bg-amber-500">Upload Manifest</Button>
+        <Button className="mx-auto w-1/2 font-bold text-white bg-blue-900 hover:bg-amber-500">Upload Manifest</Button>
       </div>
       {acceptedFiles.map(file => 
-        <div className="p-3 border-t-2 border-b-2 flex gap-2" key={file.name.concat(file.size.toString())}>
-          <FileTextIcon className="text-amber-500 h-8 w-8"/>
+        <div className="flex gap-2 p-3 border-t-2 border-b-2" key={file.name.concat(file.size.toString())}>
+          <FileTextIcon className="w-8 h-8 text-amber-500"/>
           <div className="flex flex-col flex-1">
-            <div className="flex w-full items-baseline">
+            <div className="flex items-baseline w-full">
               <p className="text-gray-400">{file.name}</p>
               <div className="flex-1"/>
               <p className="text-gray-600">{prettyBytes(file.size, {space: false})}</p>

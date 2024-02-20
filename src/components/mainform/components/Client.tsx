@@ -5,12 +5,12 @@ import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group'
 
 function ClientRadioSection() {
   return (
-    <RadioGroup className="flex items-center gap-5">
-      <div className="flex items-center gap-1">
+    <RadioGroup className="flex gap-5 items-center">
+      <div className="flex gap-1 items-center">
         <RadioGroupItem value="single" id="single" />
         <Label htmlFor="single">Single</Label>
       </div>
-      <div className="flex items-center gap-1">
+      <div className="flex gap-1 items-center">
         <RadioGroupItem value="multiple" id="multiple" />
         <Label htmlFor="multiple">Multiple</Label>
       </div>
@@ -24,14 +24,14 @@ function ClientSelectSection() {
   return (
     <>
       {clientCount.map(x => (
-        <div key={x} className="flex items-center gap-20">
+        <div key={x} className="flex gap-20 items-center">
           <p className="text-sm">Testing Center {x}</p>
           <div className="flex gap-2 items-center">
             <Select>
-              <SelectTrigger className="w-32 border border-gray-300">
-                <SelectValue className="font-normal text-xl text-blue-500" placeholder="Select Client" />
+              <SelectTrigger className="w-32 border border-gray-400">
+                <SelectValue className="text-xl font-normal text-blue-500" placeholder="Select Client" />
               </SelectTrigger>
-              <SelectContent className="border border-gray-300">
+              <SelectContent className="border border-gray-400">
                 <SelectItem value="client1">Client 1</SelectItem>
                 <SelectItem value="client2">Client 2</SelectItem>
                 <SelectItem value="client3">Client 3</SelectItem>

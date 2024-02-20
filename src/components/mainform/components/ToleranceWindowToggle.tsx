@@ -7,7 +7,7 @@ export function ToleranceWindowToggle() {
     <>
       <div>
         <div className="flex items-center space-x-2">
-          <Switch className="bg-gray-400" id="tolerance-window" />
+          <Switch id="tolerance-window" />
           <Label className="flex gap-2" htmlFor="tolerance-window">Toggle ON | <ClockIcon className="w-4 h-4" /> Select Tolerance Level</Label>
         </div>
       </div>
