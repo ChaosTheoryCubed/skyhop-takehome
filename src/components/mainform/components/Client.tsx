@@ -28,10 +28,10 @@ function ClientSelectSection() {
           <p className="text-sm">Testing Center {x}</p>
           <div className="flex gap-2 items-center">
             <Select>
-              <SelectTrigger className="w-32 border border-blue-900">
+              <SelectTrigger className="w-32 border border-gray-300">
                 <SelectValue className="font-normal text-xl text-blue-500" placeholder="Select Client" />
               </SelectTrigger>
-              <SelectContent className="border border-blue-900">
+              <SelectContent className="border border-gray-300">
                 <SelectItem value="client1">Client 1</SelectItem>
                 <SelectItem value="client2">Client 2</SelectItem>
                 <SelectItem value="client3">Client 3</SelectItem>

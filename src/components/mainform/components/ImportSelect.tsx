@@ -3,7 +3,7 @@ import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from '@
 export function ImportSelect() {
   return (
      <Select>
-      <SelectTrigger className="w-full font-bold border-blue-900 border">
+      <SelectTrigger className="w-full font-bold border-gray-300 border">
         <SelectValue className="font-bold text-xl text-blue-500" placeholder="Select Import Name:" />
       </SelectTrigger>
       <SelectContent className="border border-blue-900">
