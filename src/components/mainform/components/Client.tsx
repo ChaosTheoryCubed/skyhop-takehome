@@ -32,9 +32,9 @@ function ClientSelectSection() {
                 <SelectValue className="text-xl font-normal text-blue-500" placeholder="Select Client" />
               </SelectTrigger>
               <SelectContent className="border border-gray-400">
-                <SelectItem value="client1">Client 1</SelectItem>
-                <SelectItem value="client2">Client 2</SelectItem>
-                <SelectItem value="client3">Client 3</SelectItem>
+                <SelectItem className="hover:cursor-pointer" value="client1">Client 1</SelectItem>
+                <SelectItem className="hover:cursor-pointer" value="client2">Client 2</SelectItem>
+                <SelectItem className="hover:cursor-pointer" value="client3">Client 3</SelectItem>
               </SelectContent>
             </Select>
             <ClockIcon className="w-6 h-6" />
